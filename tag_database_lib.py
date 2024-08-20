@@ -27,7 +27,7 @@ class Tag:
         )
 
 class TagDatabase:
-    def __init__(self, filename='/home/fraser/TagData.txt'):
+    def __init__(self, filename='/home/TagData.txt'):
         self.filename = filename
         self.tags = {}
         self.load_data()
